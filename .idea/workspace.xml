@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0fdc5478-d860-4fd3-9f69-d94e6a3059d8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/airbnb-video.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.prettierignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.prettierrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/actions/getCurrentUser.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/actions/getFavoriteListings.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/actions/getListingById.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/actions/getListings.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/actions/getReservations.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/api/favorites/[listingId]/route.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/api/listings/[listingId]/route.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/api/listings/route.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/api/register/route.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/api/reservations/[reservationId]/route.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/api/reservations/route.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/Avatar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/Button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/CategoryBox.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/ClientOnly.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/Container.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/EmptyState.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/Heading.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/HeartButton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/Loader.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/Map.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/inputs/Calendar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/inputs/CategoryInput.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/inputs/Counter.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/inputs/CountrySelect.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/inputs/ImageUpload.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/inputs/Input.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/listings/ListingCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/listings/ListingCategory.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/listings/ListingHead.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/listings/ListingInfo.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/listings/ListingReservation.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/modals/LoginModal.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/modals/Modal.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/modals/RegisterModal.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/modals/RentModal.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/modals/ReturnModal.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/modals/SearchModal.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/navbar/Categories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/navbar/Logo.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/navbar/MenuItem.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/navbar/Navbar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/navbar/Search.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/navbar/UserMenu.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/error.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/favorites/FavoritesClient.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/favorites/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/hooks/useCountries.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/hooks/useFavorite.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/hooks/useLoginModal.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/hooks/useRegisterModal.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/hooks/useRentModal.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/hooks/useSearchModal.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/prismadb.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/listings/[listingId]/ListingClient.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/listings/[listingId]/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/loading.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/properties/PropertiesClient.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/properties/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/providers/ToasterProvider.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/reservations/ReservationsClient.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/reservations/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/trips/TripsClient.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/trips/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/types/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middleware.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/api/auth/[...nextauth].ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prisma/schema.prisma" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/placeholder.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/api/hello/route.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dockerfile" />
+        <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
+      </list>
+    </option>
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="false" />
+    <option name="myAllFileTypesSelected" value="true" />
+    <option name="mySelectedFileTypes">
+      <set />
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2Ozmse2mp1isJY8GfZlT2dBOOjG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/PROYECTOS/airbnb-video",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "D:\\PROYECTOS\\airbnb-video\\node_modules\\prettier",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "D:\\PROYECTOS\\airbnb-video\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\PROYECTOS\airbnb-video" />
+      <recent name="D:\PROYECTOS\airbnb-video\app" />
+      <recent name="D:\PROYECTOS\airbnb-video\app\components" />
+      <recent name="D:\PROYECTOS\airbnb-video\app\actions" />
+      <recent name="D:\PROYECTOS\airbnb-video\app\api\reservations" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\PROYECTOS\airbnb-video\pages\api\auth" />
+      <recent name="D:\PROYECTOS\airbnb-video\app\components" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0fdc5478-d860-4fd3-9f69-d94e6a3059d8" name="Changes" comment="" />
+      <created>1682571993914</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1682571993914</updated>
+      <workItem from="1682571997551" duration="3580000" />
+      <workItem from="1682624211774" duration="320000" />
+      <workItem from="1682624735668" duration="5676000" />
+      <workItem from="1682725168470" duration="6442000" />
+      <workItem from="1682741786178" duration="10029000" />
+      <workItem from="1682777967913" duration="12606000" />
+      <workItem from="1682794544129" duration="5705000" />
+      <workItem from="1682800522140" duration="4009000" />
+      <workItem from="1682865707130" duration="25215000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
